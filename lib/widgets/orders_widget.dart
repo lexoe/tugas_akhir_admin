@@ -67,7 +67,7 @@ class _OrdersWidgetState extends State<OrdersWidget> {
                             isTitle: true,
                           ),
                           TextWidget(
-                            text: '  Person',
+                            text: '  Hadi K.',
                             color: color,
                             textSize: 14,
                             isTitle: true,
@@ -76,7 +76,7 @@ class _OrdersWidgetState extends State<OrdersWidget> {
                       ),
                     ),
                     const Text(
-                      '20/06/2022',
+                      '20/03/2022',
                     )
                   ],
                 ),

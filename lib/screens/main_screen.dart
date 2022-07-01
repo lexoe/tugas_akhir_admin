@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:tugas_akhir_admin/controllers/MenuController.dart';
 import 'package:tugas_akhir_admin/widgets/side_menu.dart';
+import 'package:provider/provider.dart';
 
 import '../responsive.dart';
 import 'dashboard_screen.dart';

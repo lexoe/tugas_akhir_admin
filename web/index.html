@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,11 +28,12 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>tugas_akhir_admin</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
@@ -100,5 +102,26 @@
       loadMainDartJs();
     }
   </script>
+
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+
+  <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyD0cF3laruiO7JpNwYOExKHIB-cbUHJrtY",
+  authDomain: "tugas-akhir-a8803.firebaseapp.com",
+  projectId: "tugas-akhir-a8803",
+  storageBucket: "tugas-akhir-a8803.appspot.com",
+  messagingSenderId: "503709513175",
+  appId: "1:503709513175:web:6f9313666c82e5f98b4792",
+  measurementId: "G-XQ3HSPLQTD"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
+
 </html>

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:tugas_akhir_admin/consts/constants.dart';
 import 'package:tugas_akhir_admin/inner_screens/add_prod.dart';
 import 'package:tugas_akhir_admin/responsive.dart';
+import 'package:tugas_akhir_admin/services/global_method.dart';
 import 'package:tugas_akhir_admin/services/utils.dart';
 import 'package:tugas_akhir_admin/widgets/buttons.dart';
 import 'package:tugas_akhir_admin/widgets/header.dart';
+import 'package:tugas_akhir_admin/widgets/products_widget.dart';
 import 'package:tugas_akhir_admin/widgets/text_widget.dart';
+import 'package:provider/provider.dart';
 
 import '../controllers/MenuController.dart';
 import '../widgets/grid_products.dart';
@@ -88,18 +90,6 @@ class DashboardScreen extends StatelessWidget {
                           childAspectRatio: size.width < 1400 ? 0.8 : 1.05,
                         ),
                       ),
-                      // SizedBox(
-                      //   height: 10,
-                      // ),
-                      // TextWidget(
-                      //   text: 'Orders',
-                      //   color: color,
-                      //   isTitle: true,
-                      //   textSize: 20,
-                      // ),
-                      // SizedBox(
-                      //   height: 10,
-                      // ),
                       const OrdersList(),
                     ],
                   ),
